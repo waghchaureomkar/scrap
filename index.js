@@ -5,7 +5,5 @@ import { cronTime1 } from "./utils/constants.js";
 
 cron.schedule(cronTime1, () => {
     console.log('Running a cron job at:', new Date());
-    // nodeVersion();
     nodeVersion();
-    // Your cron job logic goes here
 });
